@@ -24,4 +24,4 @@ Through various case studies with varying modulation indices, the findings provi
 For any queries (or) further discussions, feel free to reach out:
 
 - **Email:** [ramtejpasela@gmail.com](mailto:ramtejpasela@gmail.com)  
-- **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/paselaramtej)  
+- **LinkedIn:** [linkedin](https://www.linkedin.com/in/paselaramtej)  
