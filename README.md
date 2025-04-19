@@ -88,7 +88,7 @@ We evaluated the inverter performance under three modulation indices. All simula
 
 ## Contact & Acknowledgements
 
-**Pasela Ramtej** – Electrical Engineer  
+**Pasela Ramtej** – Electrical & Electronics Engineer  
 - 📧 [ramtejpasela@gmail.com](mailto:ramtejpasela@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/paselaramtej)
 
