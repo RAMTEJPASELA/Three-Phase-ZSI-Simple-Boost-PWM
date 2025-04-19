@@ -1,5 +1,4 @@
 # ⚡ Operation & Analysis of Three-Phase Z-Source Inverter Using Simple Boost PWM Control in Simulink
----
 
 ## Overview
 This repository presents the design, simulation, and detailed analysis of a **Three-Phase Z-Source Inverter (ZSI)** employing a **Simple Boost PWM** control strategy in **Simulink**. The system targets a line-to-line RMS output of **230 V** with efficiencies exceeding **95%**, and offers insights for applications in **renewable energy**, **electric vehicles**, and **industrial power electronics**.
