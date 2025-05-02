@@ -26,6 +26,16 @@ This repository presents the design, simulation, and detailed analysis of a **Th
 ### Circuit Topology
 ![Circuit Topology](https://github.com/user-attachments/assets/269810e7-b1ae-4333-95c7-367031e08e7c)
 
+The inverter employs a Z-source network comprising an impedance branch (L–C network) placed between the DC source and the inverter bridge. This setup enables **boosting** of the DC voltage through controlled **shoot-through states**, a key feature that differentiates ZSI from traditional inverters.
+
+> **VB (Boosted Voltage)**:  
+> VB refers to the **DC-link voltage at the input of the inverter bridge**, after the Z-source network has performed its boost operation. It is typically higher than the input source voltage and is controlled by the shoot-through duty cycle (D₀). The boosted voltage is crucial to ensure that the desired output voltage is achieved.  
+> Mathematically, it is expressed as:  
+> \[
+VB = B \cdot V_{DC}
+\]  
+> where **B** is the boost factor derived from the chosen modulation index and shoot-through duty ratio.
+
 ### Power Circuit in Simulink
 ![Power Circuit in Simulink](https://github.com/user-attachments/assets/bb710003-6a12-432d-b632-b9201a2b321b)
 
@@ -36,7 +46,8 @@ This repository presents the design, simulation, and detailed analysis of a **Th
 
 ## Case Studies
 
-We evaluated the inverter performance under three modulation indices. All simulations ran for 0.1 s with a discrete step of 50 µs and a switching frequency of 10 kHz.
+We evaluated the inverter performance under three modulation indices. All simulations ran for 0.1 s with a discrete step of 50 µs and a switching frequency of 10 kHz.  
+**Note:** VB values were chosen based on the required boost factor to maintain ~230 V line-to-line RMS output across all cases.
 
 ### Case 1: M = 0.86, VB = 310 V
 | Parameter                              | Expected | Simulated |
