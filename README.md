@@ -29,9 +29,9 @@ This repository presents the design, simulation, and detailed analysis of a **Th
 The inverter employs a Z-source network comprising an impedance branch (L–C network) placed between the DC source and the inverter bridge. This setup enables **boosting** of the DC voltage through controlled **shoot-through states**, a key feature that differentiates ZSI from traditional inverters.
 
 **VB (Boosted Voltage)**  
-VB refers to the **DC-link voltage** at the input of the inverter bridge, after the Z-source network has boosted the original DC source.  
-It is generally **higher than the input source voltage** and is regulated by the **shoot-through duty cycle (D₀)**, which controls how often the inverter enters a short-circuit state to store and transfer energy via the Z-network.  
-This boosted voltage is essential to achieve the required **AC output** under varying load or modulation conditions.  
+- VB refers to the **DC-link voltage** at the input of the inverter bridge, after the Z-source network has boosted the original DC source.  
+- It is generally **higher than the input source voltage** and is regulated by the **shoot-through duty cycle (D₀)**, which controls how often the inverter enters a short-circuit state to store and transfer energy via the Z-network.  
+- This boosted voltage is essential to achieve the required **AC output** under varying load or modulation conditions.  
 
  **Mathematical Expression:**  
 > ```
